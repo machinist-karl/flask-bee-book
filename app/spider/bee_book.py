@@ -6,8 +6,8 @@ from flask import current_app
 
 # 待处理 : 将isbn_url、keyword_url放入到secure文件中
 class BeeBook:
-    isbn_url = 'https://api.xxxx.com/v2/book/isbn/{}?apikey={}'
-    keyword_url = 'https://api.xxxx.com/v2/book/search?q={}&apikey={}&start={}&count={}'
+    isbn_url = 'https://api.xxxx.com/modify_path/book/isbn/{}?apikey={}'
+    keyword_url = 'https://api.xxxx.com/modify_path/book/search?q={}&apikey={}&start={}&count={}'
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) \
         Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.55',
